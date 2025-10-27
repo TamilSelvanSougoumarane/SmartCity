@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"/><title>Add Area</title></head>
+  <body>
+    <h1>Add Area</h1>
+    <form method="post">
+      <input name="name" placeholder="area name (e.g. new_area)" required /><br/>
+      <input name="population" placeholder="population (int)" required /><br/>
+      <input name="pollution" placeholder="pollution index (int)" required /><br/>
+      <input name="traffic" placeholder="traffic index (int)" required /><br/>
+      <input name="energy" placeholder="energy usage (int)" required /><br/>
+      <input name="waste" placeholder="waste level (int)" required /><br/>
+      <button type="submit">Add</button>
+    </form>
+    <a href="{{ url_for('home') }}">Back</a>
+  </body>
+</html>
